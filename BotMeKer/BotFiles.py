@@ -15,8 +15,8 @@ API_ID = int("20551716")  # أي دي التطبيق
 API_HASH = "564355da021dc5739c01f33fb015eaf1"  # هاش التطبيق
 BOTS_LIST = []  # قائمة تخزن البوتات المصنوعة [يوزر البوت, أي دي المطور]
 SERVICE_ACTIVE = True  # حالة المجاني (تفعيل/تعطيل)
-CHANNEL = "Source_VeRoN"  # قناة السورس الإجبارية
-DEVELOPERS = ["ToxVe","TopVeGa"]  # قائمة المطورين
+CHANNEL = "BDB0B"  # قناة السورس الإجبارية
+DEVELOPERS = ["DEV_BLAL","DEV_BLAL"]  # قائمة المطورين
 mongo = pymongo.MongoClient("mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority")
 db = mongo["KIM"]["BO6262TtS_LIST"]
 
