@@ -2,9 +2,22 @@ from pyrogram import Client, idle
 from pyromod import listen
 import os
 from asyncio import sleep
-from asBASE import asJSON
+import json
+import os
 
-db = asJSON("as.json")
+filename = "as.json"
+
+# إذا الملف فارغ أو ما موجود، يكوّنه
+if not os.path.exists(filename) or os.path.getsize(filename) == 0:
+    with open(filename, "w") as f:
+        json.dump({}, f)
+
+# تحميل البيانات
+with open(filename, "r") as f:
+    try:
+        db = json.load(f)
+    except json.JSONDecodeError:
+        db = {}
 
 TOKEN = "7632141884:AAHXFitNZ_aTMgeQf3_521rsGSMzGLUxhLQ"
 
