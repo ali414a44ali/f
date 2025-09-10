@@ -6,10 +6,10 @@ from asBASE import asJSON
 
 db = asJSON("as.json")
 
-TOKEN = "7735362066:AAH3sfZL0gwTXY5I72UGeEiFidLyAIFBlDs"
+TOKEN = "7632141884:AAHXFitNZ_aTMgeQf3_521rsGSMzGLUxhLQ"
 
-SUDORS = [7895466915, 7654641648]
-DEVELOPERS = ["ToxVe","TopVeGa"]
+SUDORS = [7291869416, 7291869416]
+DEVELOPERS = ["dev_blal","dev_blal"]
 
 bot = Client(
     "BotVERON",
